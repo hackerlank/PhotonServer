@@ -240,7 +240,7 @@ internal class NetworkingPeer : LoadBalancingPeer, IPhotonPeerListener
 
     /// <summary>Name Server Host Name for Photon Cloud. Without port and without any prefix.</summary>
     #if !UNITY_EDITOR && UNITY_SWITCH
-    public const string NameServerHost = "nameserver-eu.cloudapp.net";//set to "ns.exitgames.com" after Nintendo has fixed the traffic manager bug in their dns-resolver for which this is a workaround
+	public const string NameServerHost = "ns-cn.exitgames.com";//set to "ns.exitgames.com" after Nintendo has fixed the traffic manager bug in their dns-resolver for which this is a workaround
     #else
     public const string NameServerHost = "ns.exitgames.com";
     #endif
